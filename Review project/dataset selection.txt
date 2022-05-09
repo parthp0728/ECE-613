@@ -1,0 +1,20 @@
+1] BSD500 photo is the dataset for plain photographs.
+2] sentinal-1
+3] TerraSar-X
+4] AIRSAR
+5] ALOS-PALSAR
+6] ERS-2
+8] UC merced land Use dataset - the data is similar to SAR data.
+9] NWPU dataset - the data is similar to SAR data.  
+therefore including 7, 8, 9 in the training set will help
+to learn priors that can better match the characteristics of SAR
+data and will result in a reduced domain gap. reference: https://arxiv.org/pdf/2012.05508.pdf
+
+
+10] various deep learning methods are explained in this paper: https://arxiv.org/pdf/2006.10027.pdf
+https://www.mdpi.com/2072-4292/11/21/2462/htm
+
+
+11] other dataset link: https://github.com/robmarkcole/satellite-image-deep-learning#datasets
+
+12] application of SAR(all code available): https://github.com/MathieuRita/SAR_denoising
